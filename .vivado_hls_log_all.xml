@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="dot_product" solutionName="solution1" date="2023-11-11T19:17:50.377+0330"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="dot_product" solutionName="solution1" date="2023-11-11T19:17:50.372+0330"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="dot_product" solutionName="solution1" date="2023-11-11T19:15:28.992+0330"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="dot_product" solutionName="solution1" date="2023-11-11T19:15:28.987+0330"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="dot_product" solutionName="solution1" date="2023-11-11T19:14:56.729+0330"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="dot_product" solutionName="solution1" date="2023-11-11T19:14:56.724+0330"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="dot_product" solutionName="solution1" date="2023-11-11T19:14:09.129+0330"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="dot_product" solutionName="solution1" date="2023-11-11T19:14:09.129+0330"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'hw_dot_product/out' to 'hw_dot_product/out_r' to avoid the conflict with HDL keywords or other object names." projectName="dot_product" solutionName="solution1" date="2023-11-11T19:12:42.882+0330" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

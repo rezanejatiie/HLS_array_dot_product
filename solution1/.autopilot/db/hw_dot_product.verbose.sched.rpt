@@ -1,0 +1,266 @@
+
+
+================================================================
+== Vivado HLS Report for 'hw_dot_product'
+================================================================
+* Date:           Sat Nov 11 19:12:42 2023
+
+* Version:        2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)
+* Project:        dot_product
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     8.742|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    8|    8|    8|    8|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 9
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+	4  / true
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	8  / true
+8 --> 
+	9  / true
+9 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 2.32>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%a_addr = getelementptr [10 x i32]* %a, i64 0, i64 0" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 10 'getelementptr' 'a_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [2/2] (2.32ns)   --->   "%a_load = load i32* %a_addr, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 11 'load' 'a_load' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%b_addr = getelementptr [10 x i32]* %b, i64 0, i64 0" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 12 'getelementptr' 'b_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [2/2] (2.32ns)   --->   "%b_load = load i32* %b_addr, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 13 'load' 'b_load' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%a_addr_1 = getelementptr [10 x i32]* %a, i64 0, i64 1" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 14 'getelementptr' 'a_addr_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [2/2] (2.32ns)   --->   "%a_load_1 = load i32* %a_addr_1, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 15 'load' 'a_load_1' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%b_addr_1 = getelementptr [10 x i32]* %b, i64 0, i64 1" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 16 'getelementptr' 'b_addr_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [2/2] (2.32ns)   --->   "%b_load_1 = load i32* %b_addr_1, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 17 'load' 'b_load_1' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+
+State 2 <SV = 1> <Delay = 2.32>
+ST_2 : Operation 18 [1/2] (2.32ns)   --->   "%a_load = load i32* %a_addr, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 18 'load' 'a_load' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_2 : Operation 19 [1/2] (2.32ns)   --->   "%b_load = load i32* %b_addr, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 19 'load' 'b_load' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_2 : Operation 20 [1/2] (2.32ns)   --->   "%a_load_1 = load i32* %a_addr_1, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 20 'load' 'a_load_1' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_2 : Operation 21 [1/2] (2.32ns)   --->   "%b_load_1 = load i32* %b_addr_1, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 21 'load' 'b_load_1' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%a_addr_2 = getelementptr [10 x i32]* %a, i64 0, i64 2" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 22 'getelementptr' 'a_addr_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [2/2] (2.32ns)   --->   "%a_load_2 = load i32* %a_addr_2, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 23 'load' 'a_load_2' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%b_addr_2 = getelementptr [10 x i32]* %b, i64 0, i64 2" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 24 'getelementptr' 'b_addr_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 25 [2/2] (2.32ns)   --->   "%b_load_2 = load i32* %b_addr_2, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 25 'load' 'b_load_2' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%a_addr_3 = getelementptr [10 x i32]* %a, i64 0, i64 3" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 26 'getelementptr' 'a_addr_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 27 [2/2] (2.32ns)   --->   "%a_load_3 = load i32* %a_addr_3, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 27 'load' 'a_load_3' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_2 : Operation 28 [1/1] (0.00ns)   --->   "%b_addr_3 = getelementptr [10 x i32]* %b, i64 0, i64 3" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 28 'getelementptr' 'b_addr_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 29 [2/2] (2.32ns)   --->   "%b_load_3 = load i32* %b_addr_3, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 29 'load' 'b_load_3' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+
+State 3 <SV = 2> <Delay = 8.51>
+ST_3 : Operation 30 [1/1] (8.51ns)   --->   "%tmp_1 = mul nsw i32 %a_load, %b_load" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 30 'mul' 'tmp_1' <Predicate = true> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 31 [1/1] (8.51ns)   --->   "%tmp_1_1 = mul nsw i32 %a_load_1, %b_load_1" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 31 'mul' 'tmp_1_1' <Predicate = true> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 32 [1/2] (2.32ns)   --->   "%a_load_2 = load i32* %a_addr_2, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 32 'load' 'a_load_2' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_3 : Operation 33 [1/2] (2.32ns)   --->   "%b_load_2 = load i32* %b_addr_2, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 33 'load' 'b_load_2' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_3 : Operation 34 [1/2] (2.32ns)   --->   "%a_load_3 = load i32* %a_addr_3, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 34 'load' 'a_load_3' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_3 : Operation 35 [1/2] (2.32ns)   --->   "%b_load_3 = load i32* %b_addr_3, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 35 'load' 'b_load_3' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_3 : Operation 36 [1/1] (0.00ns)   --->   "%a_addr_4 = getelementptr [10 x i32]* %a, i64 0, i64 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 36 'getelementptr' 'a_addr_4' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 37 [2/2] (2.32ns)   --->   "%a_load_4 = load i32* %a_addr_4, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 37 'load' 'a_load_4' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_3 : Operation 38 [1/1] (0.00ns)   --->   "%b_addr_4 = getelementptr [10 x i32]* %b, i64 0, i64 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 38 'getelementptr' 'b_addr_4' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 39 [2/2] (2.32ns)   --->   "%b_load_4 = load i32* %b_addr_4, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 39 'load' 'b_load_4' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_3 : Operation 40 [1/1] (0.00ns)   --->   "%a_addr_5 = getelementptr [10 x i32]* %a, i64 0, i64 5" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 40 'getelementptr' 'a_addr_5' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 41 [2/2] (2.32ns)   --->   "%a_load_5 = load i32* %a_addr_5, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 41 'load' 'a_load_5' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_3 : Operation 42 [1/1] (0.00ns)   --->   "%b_addr_5 = getelementptr [10 x i32]* %b, i64 0, i64 5" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 42 'getelementptr' 'b_addr_5' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 43 [2/2] (2.32ns)   --->   "%b_load_5 = load i32* %b_addr_5, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 43 'load' 'b_load_5' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+
+State 4 <SV = 3> <Delay = 8.51>
+ST_4 : Operation 44 [1/1] (8.51ns)   --->   "%tmp_1_2 = mul nsw i32 %a_load_2, %b_load_2" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 44 'mul' 'tmp_1_2' <Predicate = true> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 45 [1/1] (8.51ns)   --->   "%tmp_1_3 = mul nsw i32 %a_load_3, %b_load_3" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 45 'mul' 'tmp_1_3' <Predicate = true> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 46 [1/2] (2.32ns)   --->   "%a_load_4 = load i32* %a_addr_4, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 46 'load' 'a_load_4' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_4 : Operation 47 [1/2] (2.32ns)   --->   "%b_load_4 = load i32* %b_addr_4, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 47 'load' 'b_load_4' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_4 : Operation 48 [1/2] (2.32ns)   --->   "%a_load_5 = load i32* %a_addr_5, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 48 'load' 'a_load_5' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_4 : Operation 49 [1/2] (2.32ns)   --->   "%b_load_5 = load i32* %b_addr_5, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 49 'load' 'b_load_5' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_4 : Operation 50 [1/1] (0.00ns)   --->   "%a_addr_6 = getelementptr [10 x i32]* %a, i64 0, i64 6" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 50 'getelementptr' 'a_addr_6' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 51 [2/2] (2.32ns)   --->   "%a_load_6 = load i32* %a_addr_6, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 51 'load' 'a_load_6' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_4 : Operation 52 [1/1] (0.00ns)   --->   "%b_addr_6 = getelementptr [10 x i32]* %b, i64 0, i64 6" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 52 'getelementptr' 'b_addr_6' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 53 [2/2] (2.32ns)   --->   "%b_load_6 = load i32* %b_addr_6, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 53 'load' 'b_load_6' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_4 : Operation 54 [1/1] (0.00ns)   --->   "%a_addr_7 = getelementptr [10 x i32]* %a, i64 0, i64 7" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 54 'getelementptr' 'a_addr_7' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 55 [2/2] (2.32ns)   --->   "%a_load_7 = load i32* %a_addr_7, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 55 'load' 'a_load_7' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_4 : Operation 56 [1/1] (0.00ns)   --->   "%b_addr_7 = getelementptr [10 x i32]* %b, i64 0, i64 7" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 56 'getelementptr' 'b_addr_7' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 57 [2/2] (2.32ns)   --->   "%b_load_7 = load i32* %b_addr_7, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 57 'load' 'b_load_7' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_4 : Operation 58 [1/1] (2.55ns)   --->   "%tmp1 = add i32 %tmp_1, %tmp_1_1" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 58 'add' 'tmp1' <Predicate = true> <Delay = 2.55> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+
+State 5 <SV = 4> <Delay = 8.51>
+ST_5 : Operation 59 [1/1] (8.51ns)   --->   "%tmp_1_4 = mul nsw i32 %a_load_4, %b_load_4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 59 'mul' 'tmp_1_4' <Predicate = true> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 60 [1/1] (8.51ns)   --->   "%tmp_1_5 = mul nsw i32 %a_load_5, %b_load_5" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 60 'mul' 'tmp_1_5' <Predicate = true> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 61 [1/2] (2.32ns)   --->   "%a_load_6 = load i32* %a_addr_6, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 61 'load' 'a_load_6' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_5 : Operation 62 [1/2] (2.32ns)   --->   "%b_load_6 = load i32* %b_addr_6, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 62 'load' 'b_load_6' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_5 : Operation 63 [1/2] (2.32ns)   --->   "%a_load_7 = load i32* %a_addr_7, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 63 'load' 'a_load_7' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_5 : Operation 64 [1/2] (2.32ns)   --->   "%b_load_7 = load i32* %b_addr_7, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 64 'load' 'b_load_7' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_5 : Operation 65 [1/1] (0.00ns)   --->   "%a_addr_8 = getelementptr [10 x i32]* %a, i64 0, i64 8" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 65 'getelementptr' 'a_addr_8' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 66 [2/2] (2.32ns)   --->   "%a_load_8 = load i32* %a_addr_8, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 66 'load' 'a_load_8' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_5 : Operation 67 [1/1] (0.00ns)   --->   "%b_addr_8 = getelementptr [10 x i32]* %b, i64 0, i64 8" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 67 'getelementptr' 'b_addr_8' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 68 [2/2] (2.32ns)   --->   "%b_load_8 = load i32* %b_addr_8, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 68 'load' 'b_load_8' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_5 : Operation 69 [1/1] (0.00ns)   --->   "%a_addr_9 = getelementptr [10 x i32]* %a, i64 0, i64 9" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 69 'getelementptr' 'a_addr_9' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 70 [2/2] (2.32ns)   --->   "%a_load_9 = load i32* %a_addr_9, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 70 'load' 'a_load_9' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_5 : Operation 71 [1/1] (0.00ns)   --->   "%b_addr_9 = getelementptr [10 x i32]* %b, i64 0, i64 9" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 71 'getelementptr' 'b_addr_9' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 72 [2/2] (2.32ns)   --->   "%b_load_9 = load i32* %b_addr_9, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 72 'load' 'b_load_9' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+
+State 6 <SV = 5> <Delay = 8.51>
+ST_6 : Operation 73 [1/1] (8.51ns)   --->   "%tmp_1_6 = mul nsw i32 %a_load_6, %b_load_6" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 73 'mul' 'tmp_1_6' <Predicate = true> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 74 [1/1] (8.51ns)   --->   "%tmp_1_7 = mul nsw i32 %a_load_7, %b_load_7" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 74 'mul' 'tmp_1_7' <Predicate = true> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 75 [1/2] (2.32ns)   --->   "%a_load_8 = load i32* %a_addr_8, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 75 'load' 'a_load_8' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_6 : Operation 76 [1/2] (2.32ns)   --->   "%b_load_8 = load i32* %b_addr_8, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 76 'load' 'b_load_8' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_6 : Operation 77 [1/2] (2.32ns)   --->   "%a_load_9 = load i32* %a_addr_9, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 77 'load' 'a_load_9' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_6 : Operation 78 [1/2] (2.32ns)   --->   "%b_load_9 = load i32* %b_addr_9, align 4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 78 'load' 'b_load_9' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 10> <RAM>
+ST_6 : Operation 79 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp3 = add i32 %tmp_1_3, %tmp_1_4" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 79 'add' 'tmp3' <Predicate = true> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.18> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 80 [1/1] (4.37ns) (root node of TernaryAdder)   --->   "%tmp2 = add i32 %tmp3, %tmp_1_2" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 80 'add' 'tmp2' <Predicate = true> <Delay = 4.37> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.18> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+
+State 7 <SV = 6> <Delay = 8.51>
+ST_7 : Operation 81 [1/1] (8.51ns)   --->   "%tmp_1_8 = mul nsw i32 %a_load_8, %b_load_8" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 81 'mul' 'tmp_1_8' <Predicate = true> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 82 [1/1] (8.51ns)   --->   "%tmp_1_9 = mul nsw i32 %a_load_9, %b_load_9" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 82 'mul' 'tmp_1_9' <Predicate = true> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+
+State 8 <SV = 7> <Delay = 8.74>
+ST_8 : Operation 83 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp5 = add i32 %tmp_1_5, %tmp_1_6" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 83 'add' 'tmp5' <Predicate = true> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.18> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_8 : Operation 84 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp7 = add i32 %tmp_1_8, %tmp_1_9" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 84 'add' 'tmp7' <Predicate = true> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.18> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_8 : Operation 85 [1/1] (4.37ns) (root node of TernaryAdder)   --->   "%tmp6 = add i32 %tmp7, %tmp_1_7" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 85 'add' 'tmp6' <Predicate = true> <Delay = 4.37> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.18> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_8 : Operation 86 [1/1] (4.37ns) (root node of TernaryAdder)   --->   "%tmp4 = add i32 %tmp6, %tmp5" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 86 'add' 'tmp4' <Predicate = true> <Delay = 4.37> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.18> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+
+State 9 <SV = 8> <Delay = 4.37>
+ST_9 : Operation 87 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap([10 x i32]* %a) nounwind, !map !7"   --->   Operation 87 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 88 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap([10 x i32]* %b) nounwind, !map !13"   --->   Operation 88 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 89 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %out_r) nounwind, !map !17"   --->   Operation 89 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 90 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([15 x i8]* @hw_dot_product_str) nounwind"   --->   Operation 90 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 91 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp = add i32 %tmp2, %tmp1" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 91 'add' 'tmp' <Predicate = true> <Delay = 0.00> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.18> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_9 : Operation 92 [1/1] (4.37ns) (root node of TernaryAdder)   --->   "%product_1_9 = add nsw i32 %tmp4, %tmp" [dot_product/source/hw_array_dot_pr.cpp:25]   --->   Operation 92 'add' 'product_1_9' <Predicate = true> <Delay = 4.37> <Core = "TAddSub">   --->   Core 80 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.18> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_9 : Operation 93 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i32P(i32* %out_r, i32 %product_1_9) nounwind" [dot_product/source/hw_array_dot_pr.cpp:29]   --->   Operation 93 'write' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 94 [1/1] (0.00ns)   --->   "ret void" [dot_product/source/hw_array_dot_pr.cpp:31]   --->   Operation 94 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 2.32ns
+The critical path consists of the following:
+	'getelementptr' operation ('a_addr', dot_product/source/hw_array_dot_pr.cpp:25) [8]  (0 ns)
+	'load' operation ('a_load', dot_product/source/hw_array_dot_pr.cpp:25) on array 'a' [9]  (2.32 ns)
+
+ <State 2>: 2.32ns
+The critical path consists of the following:
+	'load' operation ('a_load', dot_product/source/hw_array_dot_pr.cpp:25) on array 'a' [9]  (2.32 ns)
+
+ <State 3>: 8.51ns
+The critical path consists of the following:
+	'mul' operation ('tmp_1', dot_product/source/hw_array_dot_pr.cpp:25) [12]  (8.51 ns)
+
+ <State 4>: 8.51ns
+The critical path consists of the following:
+	'mul' operation ('tmp_1_2', dot_product/source/hw_array_dot_pr.cpp:25) [22]  (8.51 ns)
+
+ <State 5>: 8.51ns
+The critical path consists of the following:
+	'mul' operation ('tmp_1_4', dot_product/source/hw_array_dot_pr.cpp:25) [32]  (8.51 ns)
+
+ <State 6>: 8.51ns
+The critical path consists of the following:
+	'mul' operation ('tmp_1_6', dot_product/source/hw_array_dot_pr.cpp:25) [42]  (8.51 ns)
+
+ <State 7>: 8.51ns
+The critical path consists of the following:
+	'mul' operation ('tmp_1_8', dot_product/source/hw_array_dot_pr.cpp:25) [52]  (8.51 ns)
+
+ <State 8>: 8.74ns
+The critical path consists of the following:
+	'add' operation ('tmp7', dot_product/source/hw_array_dot_pr.cpp:25) [63]  (0 ns)
+	'add' operation ('tmp6', dot_product/source/hw_array_dot_pr.cpp:25) [64]  (4.37 ns)
+	'add' operation ('tmp4', dot_product/source/hw_array_dot_pr.cpp:25) [65]  (4.37 ns)
+
+ <State 9>: 4.37ns
+The critical path consists of the following:
+	'add' operation ('tmp', dot_product/source/hw_array_dot_pr.cpp:25) [61]  (0 ns)
+	'add' operation ('product_1_9', dot_product/source/hw_array_dot_pr.cpp:25) [66]  (4.37 ns)
+	wire write on port 'out_r' (dot_product/source/hw_array_dot_pr.cpp:29) [67]  (0 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

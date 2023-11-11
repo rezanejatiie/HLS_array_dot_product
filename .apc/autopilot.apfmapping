@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="hw_array_dot_pr.cpp" path="D:\AA_ProgramFiles\HLS_Project\dot_product\source\hw_array_dot_pr.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="sw_array_dot_pr.cpp" path="D:\AA_ProgramFiles\HLS_Project\dot_product\source\sw_array_dot_pr.cpp"/>
+    <originFiles name="sw_array_dot_pr.h" path="D:\AA_ProgramFiles\HLS_Project\dot_product\source\sw_array_dot_pr.h"/>
+    <originFiles name="tb_array_dot_pr.cpp" path="D:\AA_ProgramFiles\HLS_Project\dot_product\source\tb_array_dot_pr.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
