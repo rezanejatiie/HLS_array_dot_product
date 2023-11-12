@@ -1,6 +1,6 @@
 # HLS_array_dot_product
 
-n the project I use Vivado HLS version 2018.2
+In the project I use Vivado HLS version 2018.2
 The board which use for the simulation is Zed board which is popular board which use the zynq FPGA
 
 The source folder contains the four c++ code, the first one " hw_array_dot_pr.cpp "
