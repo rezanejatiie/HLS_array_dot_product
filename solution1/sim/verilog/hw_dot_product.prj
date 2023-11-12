@@ -1,0 +1,6 @@
+sv work "glbl.v"
+sv xil_defaultlib "AESL_automem_a.v"
+sv xil_defaultlib "AESL_automem_b.v"
+sv xil_defaultlib "hw_dot_product.autotb.v"
+sv xil_defaultlib "hw_dot_product.v"
+

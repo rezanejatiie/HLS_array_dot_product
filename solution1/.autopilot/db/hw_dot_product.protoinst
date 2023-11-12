@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"hw_dot_product": {
+			"proto_instances": {
+			}
+		}
+	}
+}

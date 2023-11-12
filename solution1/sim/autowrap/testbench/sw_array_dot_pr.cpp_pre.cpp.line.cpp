@@ -1,0 +1,27 @@
+#pragma line 1 "D:/AA_ProgramFiles/HLS_Project/dot_product/source/sw_array_dot_pr.cpp"
+#pragma line 1 "<built-in>"
+#pragma line 1 "<command-line>"
+#pragma line 1 "D:/AA_ProgramFiles/HLS_Project/dot_product/source/sw_array_dot_pr.cpp"
+#pragma line 1 "D:/AA_ProgramFiles/HLS_Project/dot_product/source/sw_array_dot_pr.h" 1
+#pragma empty_line
+#pragma empty_line
+void sw_dot_product(int a[10], int b[10] , int &out);
+void hw_dot_product(int a[10], int b[10] , int &out);
+#pragma line 2 "D:/AA_ProgramFiles/HLS_Project/dot_product/source/sw_array_dot_pr.cpp" 2
+#pragma empty_line
+#pragma empty_line
+#pragma empty_line
+void sw_dot_product(int *a, int *b , int &out)
+{
+#pragma empty_line
+#pragma empty_line
+#pragma empty_line
+  int product = 0;
+#pragma empty_line
+  for (int i = 0; i < 10; ++i){
+#pragma empty_line
+    product += a[i] * b[i];
+  }
+#pragma empty_line
+  out = product;
+}

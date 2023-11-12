@@ -1,0 +1,6 @@
+   Build using "D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/msys64/mingw64/bin/g++"
+   Compiling tb_array_dot_pr.cpp_pre.cpp.tb.cpp
+   Compiling apatb_hw_dot_product.cpp
+   Compiling hw_array_dot_pr.cpp_pre.cpp.tb.cpp
+   Compiling sw_array_dot_pr.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

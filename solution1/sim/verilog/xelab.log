@@ -1,0 +1,26 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_hw_dot_product_top glbl -prj hw_dot_product.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s hw_dot_product 
+Multi-threading is on. Using 10 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/AA_ProgramFiles/HLS_Project/dot_product/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/AA_ProgramFiles/HLS_Project/dot_product/solution1/sim/verilog/AESL_automem_a.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_a
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/AA_ProgramFiles/HLS_Project/dot_product/solution1/sim/verilog/AESL_automem_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_b
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/AA_ProgramFiles/HLS_Project/dot_product/solution1/sim/verilog/hw_dot_product.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_hw_dot_product_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/AA_ProgramFiles/HLS_Project/dot_product/solution1/sim/verilog/hw_dot_product.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hw_dot_product
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hw_dot_product
+Compiling module xil_defaultlib.AESL_automem_a
+Compiling module xil_defaultlib.AESL_automem_b
+Compiling module xil_defaultlib.apatb_hw_dot_product_top
+Compiling module work.glbl
+Built simulation snapshot hw_dot_product

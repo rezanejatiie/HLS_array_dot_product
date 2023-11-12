@@ -1,0 +1,23 @@
+#pragma line 1 "D:/AA_ProgramFiles/HLS_Project/dot_product/source/hw_array_dot_pr.cpp"
+#pragma line 1 "<built-in>"
+#pragma line 1 "<command-line>"
+#pragma line 1 "D:/AA_ProgramFiles/HLS_Project/dot_product/source/hw_array_dot_pr.cpp"
+#pragma empty_line
+#pragma empty_line
+void hw_dot_product(int a[10], int b[10] , int &out)
+#pragma empty_line
+{
+#pragma empty_line
+#pragma empty_line
+#pragma empty_line
+   int product = 0;
+#pragma empty_line
+   for(int i=0;i<10;i++) {
+#pragma HLS unroll
+     product += a[i] * b[i];
+   }
+#pragma empty_line
+#pragma empty_line
+out = product;
+#pragma empty_line
+}
