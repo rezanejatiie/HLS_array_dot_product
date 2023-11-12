@@ -299,8 +299,10 @@ extern "C" {
 void hw_dot_product(int a[10], int b[10] , int &out)
 
 {_ssdm_SpecArrayDimSize(a, 10);_ssdm_SpecArrayDimSize(b, 10);
-# 21 "dot_product/source/hw_array_dot_pr.cpp"
- int product = 0;
+
+
+
+   int product = 0;
 
    for(int i=0;i<10;i++) {
 _ssdm_Unroll(0,0,0, "");

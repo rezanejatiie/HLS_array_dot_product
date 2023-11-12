@@ -29,6 +29,7 @@
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/ap_sysc"/>
+									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/HLS_Project"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/etc"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1442619080" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -46,6 +47,7 @@
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/ap_sysc"/>
+									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/HLS_Project"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/etc"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.238187861" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
@@ -113,6 +115,7 @@
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/ap_sysc"/>
+									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/HLS_Project"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/etc"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.310844536" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
@@ -125,6 +128,7 @@
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/systemc/include"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/ap_sysc"/>
+									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/HLS_Project"/>
 									<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/etc"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.369295" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'hw_dot_product'" level="0">
-<item name = "Date">Sat Nov 11 19:12:43 2023
+<item name = "Date">Sun Nov 12 16:47:45 2023
 </item>
 <item name = "Version">2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)</item>
 <item name = "Project">dot_product</item>
@@ -149,9 +149,9 @@
 <item name = "Max Delay">8.74</item>
 <item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
 <keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
-<column name="'tmp7', dot_product/source/hw_array_dot_pr.cpp:25">add, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp6', dot_product/source/hw_array_dot_pr.cpp:25">add, 4.37, 4.37, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp4', dot_product/source/hw_array_dot_pr.cpp:25">add, 4.37, 8.74, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp7', dot_product/source/hw_array_dot_pr.cpp:13">add, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp6', dot_product/source/hw_array_dot_pr.cpp:13">add, 4.37, 4.37, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp4', dot_product/source/hw_array_dot_pr.cpp:13">add, 4.37, 8.74, -, -, -, -, -, -, -, -, -, -, -</column>
 </table>
 </item>
 </section>

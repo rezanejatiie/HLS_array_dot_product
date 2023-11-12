@@ -1,4 +1,4 @@
-<project xmlns="com.autoesl.autopilot.project" top="hw_dot_product" name="dot_product">
+<project xmlns="com.autoesl.autopilot.project" name="dot_product" top="hw_dot_product">
     <files>
         <file name="dot_product/source/hw_array_dot_pr.cpp" sc="0" tb="false" cflags=""/>
         <file name="../source/sw_array_dot_pr.cpp" sc="0" tb="1" cflags=""/>

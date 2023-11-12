@@ -106,7 +106,7 @@
               <name>a_addr</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -121,7 +121,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -153,7 +153,7 @@
               <name>a_load</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -168,7 +168,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -198,7 +198,7 @@
               <name>b_addr</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -213,7 +213,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -245,7 +245,7 @@
               <name>b_load</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -260,7 +260,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -290,7 +290,7 @@
               <name>tmp_1</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -305,7 +305,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -336,7 +336,7 @@
               <name>a_addr_1</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -351,7 +351,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -383,7 +383,7 @@
               <name>a_load_1</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -398,7 +398,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -428,7 +428,7 @@
               <name>b_addr_1</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -443,7 +443,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -475,7 +475,7 @@
               <name>b_load_1</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -490,7 +490,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -520,7 +520,7 @@
               <name>tmp_1_1</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -535,7 +535,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -566,7 +566,7 @@
               <name>a_addr_2</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -581,7 +581,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -613,7 +613,7 @@
               <name>a_load_2</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -628,7 +628,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -658,7 +658,7 @@
               <name>b_addr_2</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -673,7 +673,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -705,7 +705,7 @@
               <name>b_load_2</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -720,7 +720,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -750,7 +750,7 @@
               <name>tmp_1_2</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -765,7 +765,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -796,7 +796,7 @@
               <name>a_addr_3</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -811,7 +811,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -843,7 +843,7 @@
               <name>a_load_3</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -858,7 +858,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -888,7 +888,7 @@
               <name>b_addr_3</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -903,7 +903,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -935,7 +935,7 @@
               <name>b_load_3</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -950,7 +950,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -980,7 +980,7 @@
               <name>tmp_1_3</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -995,7 +995,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1026,7 +1026,7 @@
               <name>a_addr_4</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1041,7 +1041,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1073,7 +1073,7 @@
               <name>a_load_4</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1088,7 +1088,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1118,7 +1118,7 @@
               <name>b_addr_4</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1133,7 +1133,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1165,7 +1165,7 @@
               <name>b_load_4</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1180,7 +1180,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1210,7 +1210,7 @@
               <name>tmp_1_4</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1225,7 +1225,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1256,7 +1256,7 @@
               <name>a_addr_5</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1271,7 +1271,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1303,7 +1303,7 @@
               <name>a_load_5</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1318,7 +1318,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1348,7 +1348,7 @@
               <name>b_addr_5</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1363,7 +1363,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1395,7 +1395,7 @@
               <name>b_load_5</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1410,7 +1410,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1440,7 +1440,7 @@
               <name>tmp_1_5</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1455,7 +1455,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1486,7 +1486,7 @@
               <name>a_addr_6</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1501,7 +1501,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1533,7 +1533,7 @@
               <name>a_load_6</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1548,7 +1548,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1578,7 +1578,7 @@
               <name>b_addr_6</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1593,7 +1593,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1625,7 +1625,7 @@
               <name>b_load_6</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1640,7 +1640,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1670,7 +1670,7 @@
               <name>tmp_1_6</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1685,7 +1685,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1716,7 +1716,7 @@
               <name>a_addr_7</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1731,7 +1731,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1763,7 +1763,7 @@
               <name>a_load_7</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1778,7 +1778,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1808,7 +1808,7 @@
               <name>b_addr_7</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1823,7 +1823,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1855,7 +1855,7 @@
               <name>b_load_7</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1870,7 +1870,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1900,7 +1900,7 @@
               <name>tmp_1_7</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1915,7 +1915,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1946,7 +1946,7 @@
               <name>a_addr_8</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -1961,7 +1961,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -1993,7 +1993,7 @@
               <name>a_load_8</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2008,7 +2008,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2038,7 +2038,7 @@
               <name>b_addr_8</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2053,7 +2053,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2085,7 +2085,7 @@
               <name>b_load_8</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2100,7 +2100,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2130,7 +2130,7 @@
               <name>tmp_1_8</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2145,7 +2145,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2176,7 +2176,7 @@
               <name>a_addr_9</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2191,7 +2191,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2223,7 +2223,7 @@
               <name>a_load_9</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2238,7 +2238,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2268,7 +2268,7 @@
               <name>b_addr_9</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2283,7 +2283,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2315,7 +2315,7 @@
               <name>b_load_9</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2330,7 +2330,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2360,7 +2360,7 @@
               <name>tmp_1_9</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2375,7 +2375,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2406,7 +2406,7 @@
               <name>tmp1</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2421,7 +2421,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2452,7 +2452,7 @@
               <name>tmp3</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2467,7 +2467,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2498,7 +2498,7 @@
               <name>tmp2</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2513,7 +2513,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2544,7 +2544,7 @@
               <name>tmp</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2559,7 +2559,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2590,7 +2590,7 @@
               <name>tmp5</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2605,7 +2605,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2636,7 +2636,7 @@
               <name>tmp7</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2651,7 +2651,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2682,7 +2682,7 @@
               <name>tmp6</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2697,7 +2697,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2728,7 +2728,7 @@
               <name>tmp4</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2743,7 +2743,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2774,7 +2774,7 @@
               <name>product_1_9</name>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>25</lineNumber>
+              <lineNumber>13</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2789,7 +2789,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>25</second>
+                      <second>13</second>
                     </item>
                   </second>
                 </item>
@@ -2820,7 +2820,7 @@
               <name/>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>29</lineNumber>
+              <lineNumber>17</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2835,7 +2835,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>29</second>
+                      <second>17</second>
                     </item>
                   </second>
                 </item>
@@ -2867,7 +2867,7 @@
               <name/>
               <fileName>dot_product/source/hw_array_dot_pr.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>31</lineNumber>
+              <lineNumber>19</lineNumber>
               <contextFuncName>hw_dot_product</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
@@ -2882,7 +2882,7 @@
                         <first>dot_product/source/hw_array_dot_pr.cpp</first>
                         <second>hw_dot_product</second>
                       </first>
-                      <second>31</second>
+                      <second>19</second>
                     </item>
                   </second>
                 </item>
