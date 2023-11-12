@@ -78,6 +78,37 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.exe.debug.2033471592.1177251502" name="sw_array_dot_pr.cpp" rcbsApplicability="disable" resourcePath="testbench/sw_array_dot_pr.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1933338740.1076978558">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1933338740.1076978558" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1933338740">
+							<option id="gnu.cpp.compiler.option.preprocessor.def.2139344464" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+							<option id="gnu.cpp.compiler.option.include.paths.252536806" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/auto_cc/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/systemc/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/ap_sysc"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/HLS_Project"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/etc"/>
+							</option>
+							<option id="gnu.cpp.compiler.option.other.other.2038769892" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1203347887" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.exe.debug.2033471592.703143005" name="sw_array_dot_pr.h" rcbsApplicability="disable" resourcePath="testbench/sw_array_dot_pr.h" toolsToInvoke=""/>
+					<fileInfo id="cdt.managedbuild.config.gnu.exe.debug.2033471592.907777508" name="tb_array_dot_pr.cpp" rcbsApplicability="disable" resourcePath="testbench/tb_array_dot_pr.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1933338740.238786617">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1933338740.238786617" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1933338740">
+							<option id="gnu.cpp.compiler.option.preprocessor.def.266811764" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+							<option id="gnu.cpp.compiler.option.include.paths.832231635" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/auto_cc/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/systemc/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/ap_sysc"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/HLS_Project"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/etc"/>
+							</option>
+							<option id="gnu.cpp.compiler.option.other.other.2016372179" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.145718190" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+						</tool>
+					</fileInfo>
 					<sourceEntries>
 						<entry excluding="solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
@@ -152,6 +183,37 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.exe.release.321109761.2082486983" name="sw_array_dot_pr.cpp" rcbsApplicability="disable" resourcePath="testbench/sw_array_dot_pr.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1445610758.964789626">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1445610758.964789626" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1445610758">
+							<option id="gnu.cpp.compiler.option.preprocessor.def.1881709939" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+							<option id="gnu.cpp.compiler.option.include.paths.262589581" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/auto_cc/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/systemc/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/ap_sysc"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/HLS_Project"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/etc"/>
+							</option>
+							<option id="gnu.cpp.compiler.option.other.other.709581519" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.836250858" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.exe.release.321109761.1491918227" name="sw_array_dot_pr.h" rcbsApplicability="disable" resourcePath="testbench/sw_array_dot_pr.h" toolsToInvoke=""/>
+					<fileInfo id="cdt.managedbuild.config.gnu.exe.release.321109761.1097292981" name="tb_array_dot_pr.cpp" rcbsApplicability="disable" resourcePath="testbench/tb_array_dot_pr.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1445610758.394368867">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1445610758.394368867" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1445610758">
+							<option id="gnu.cpp.compiler.option.preprocessor.def.198773824" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+							<option id="gnu.cpp.compiler.option.include.paths.1052825979" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/auto_cc/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/win64/tools/systemc/include"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/ap_sysc"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/HLS_Project"/>
+								<listOptionValue builtIn="false" value="D:/AA_ProgramFiles/Vivado_2018_2/Vivado/2018.2/include/etc"/>
+							</option>
+							<option id="gnu.cpp.compiler.option.other.other.229901462" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.639318590" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+						</tool>
+					</fileInfo>
 					<sourceEntries>
 						<entry excluding="solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
